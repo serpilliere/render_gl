@@ -1,0 +1,13 @@
+[package]
+name = "render_gl"
+version = "0.1.0"
+authors = []
+
+[dependencies]
+anyhow = "1.0"
+gl = "0.14"
+vec-2-10-10-10 = { git = "https://github.com/serpilliere/vec-2-10-10-10-rs.git", branch="update_crate" }
+half = "1.1.1"
+nalgebra = "0.18"
+floating-duration = "0.1.2"
+image = "0.20"
